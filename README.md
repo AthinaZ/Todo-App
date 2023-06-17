@@ -23,3 +23,15 @@
 - Database: PostgreSQL with TypeORM
 
 ## Screenshots
+
+| Screenshot 1 | Screenshot 2 |
+|--------------|--------------|
+| ![Screenshot 1](./screenshots/01_Welcome.png) | ![Screenshot 2](./screenshots/02_Login.png) |
+
+| Screenshot 3 | Screenshot 4 |
+|--------------|--------------|
+| ![Screenshot 3](./screenshots/03_Register.png) | ![Screenshot 4](./screenshots/04_TodoPage.png) |
+
+| Screenshot 5 | Screenshot 6 |
+|--------------|--------------|
+| ![Screenshot 5](./screenshots/06_AddTodo2.png) | ![Screenshot 6](./screenshots/07_TodoTable.png) |
