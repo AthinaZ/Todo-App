@@ -22,6 +22,46 @@
 - Backend: Controllers, services, and DTOs for todos and authentication
 - Database: PostgreSQL with TypeORM
 
+## Getting Started
+
+> Prerequisites: Before you begin, make sure Docker is installed and running on your system.<br>
+> You can check this by running docker --version in your terminal.
+
+**Clone the repository!!**
+
+### Frontend
+- Navigate to the frontend directory: cd front
+- Install the frontend dependencies: npm install
+- Start the frontend development server: npm start
+
+### Backend
+- Navigate to the backend directory: cd ../back
+- Install the backend dependencies: npm install
+- Start the backend server: npm run start:dev
+
+### Docker
+- Navigate to root directory of project
+- Start the PostgreSQL container using Docker Compose: docker compose up
+- Verify the container is running: docker ps
+- Connect your application to the PostgreSQL database using the following details:
+    - Host: 127.0.0.1
+    - Port: 5432
+    - Username: see docker-compose.yml
+    - Password: see docker-compose.yml
+    - Database Name: todo
+- Stopping and Removing the Containers (Optional): When you're done with the application and want to stop and remove the containers, you can use the following command: docker compose down
+
+## Docker Cleanup Script
+
+I've also provided a handy script that you can use to clean up Docker containers and images. This script can be useful when you want to stop and remove all containers and images, as well as clean up any unused resources. Please use it with caution, as it will remove all stopped containers and images.
+
+### Usage
+
+- Open a terminal.
+- Navigate to the root directory.
+- Run the following command to execute the cleanup script: ./docker-clean.sh
+
+
 ## Screenshots
 
 | Screenshot 1 | Screenshot 2 |
