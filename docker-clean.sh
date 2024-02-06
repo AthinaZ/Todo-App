@@ -8,4 +8,4 @@ docker rm -f $(docker ps -aq)
 docker rmi -f $(docker images -q)
 
 docker system prune
-docker volume prune
+docker volume prune -a
